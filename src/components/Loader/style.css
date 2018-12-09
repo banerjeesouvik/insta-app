@@ -1,0 +1,24 @@
+.loader {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 50px auto;
+  border: 0.25rem solid #ccc;
+  border-top-color: #5e2750;
+  animation: spin 500ms infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .home-page .loader {
+    margin-top: 100px;
+  }
+}

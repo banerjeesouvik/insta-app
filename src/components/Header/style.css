@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  height: 60px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #5c3a58;
+  color: #ffffff;
+  padding: 0 15px;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+  font-family: "Lobster Two", cursive;
+  font-size: 1.5em;
+}
+
+header .profile-name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+  header {
+    display: none;
+  }
+}

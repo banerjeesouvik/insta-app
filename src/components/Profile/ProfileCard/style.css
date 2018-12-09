@@ -1,0 +1,75 @@
+.profile .profile-card {
+  position: relative;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile .profile-avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  border: 1px solid #cbcbcb;
+  background-position: center;
+}
+
+.profile .profile-details {
+  display: flex;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  color: #777;
+  position: relative;
+}
+
+.profile .profile-details > div {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: 0 8px;
+}
+
+.profile .profile-details > div b {
+  color: #222;
+}
+
+.profile .profile-card .follow-btn {
+  width: 100%;
+  background-color: #edb625;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.profile .profile-card .profile-name,
+.profile .profile-card .profile-desc {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.profile .profile-card .profile-name {
+  color: #222;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.profile .profile-card .profile-desc {
+  color: #666;
+}
+
+@media screen and (min-width: 641px) {
+  .profile .profile-card .profile-details {
+    width: 350px;
+    margin-left: 30px;
+  }
+  .profile .profile-card .profile-name {
+    margin-top: 20px;
+  }
+}

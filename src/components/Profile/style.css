@@ -1,0 +1,9 @@
+.home-page .profile {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .home-page .profile {
+    margin-top: 70px;
+  }
+}
